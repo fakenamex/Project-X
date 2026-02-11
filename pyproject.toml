@@ -1,0 +1,11 @@
+[project]
+name = "project-x"
+version = "0.1.0"
+description = "Autonomous AI newsroom for German news analysis"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
